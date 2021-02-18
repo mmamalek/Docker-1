@@ -1,2 +1,2 @@
 #!/bin/bash
-docker rm --force $(docker ps -a -q)
+docker rm --force $(docker container ls -a -q)
